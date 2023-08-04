@@ -68,9 +68,9 @@ def main():
         result = predict_Y(data)
                            
         import seaborn as sns
-        cm = sns.light_palette("yellow", as_cmap = True)
-        myResult = result.style.background_gradient(cmap = cm).set_precision(2)
-        st.table(myResult)
+        #cm = sns.light_palette("yellow", as_cmap = True)
+        #myResult = result.style.background_gradient(cmap = cm).set_precision(2)
+        st.table(result)
 
                            
 if __name__=='__main__':

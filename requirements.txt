@@ -2,8 +2,8 @@ dtale==2.12.1
 feature_engine==1.5.2
 joblib==1.2.0
 matplotlib==3.6.0
-numpy==1.23.5
-pandas==1.4.4
+numpy
+pandas
 pandas_profiling==3.6.6
 scikit_learn==1.0.2
 seaborn==0.11.2
